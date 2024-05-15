@@ -11,7 +11,7 @@ function Products() {
         <center>
             <h1>Best Sells</h1>
         </center>
-        <div className='container-fluid animate__animated animate__backInUp animate__delay-3s'>
+        <div className='container-fluid animate__animated animate__backInUp animate__delay-2s'>
             <div className="row  d-flex justify-content-center">               
             {/* card no.1 */}
             <div className="card col-lg-2 col-sm-7  m-3" >
