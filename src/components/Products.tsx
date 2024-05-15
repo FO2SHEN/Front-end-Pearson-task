@@ -1,4 +1,3 @@
-import React from 'react'
 import cam1 from '../assets/images/cam1.jpeg'
 import cam2 from '../assets/images/cam2.jpeg'
 import sensor from '../assets/images/sensor1.jpeg'

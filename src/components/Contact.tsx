@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Contact() {
   return (
@@ -27,7 +26,7 @@ function Contact() {
 
             <div className='col-8'>
               <label>Message</label>
-              <textarea className="form-control" id="exampleFormControlTextarea1" rows="4" placeholder=''></textarea>
+              <textarea className="form-control" id="exampleFormControlTextarea1"></textarea>
             </div><br />
             <button type='submit' className="btn btn-primary col-1">Send</button>
             
