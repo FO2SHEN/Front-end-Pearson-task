@@ -1,9 +1,9 @@
 
 function Contact() {
   return (
-    <><br />
+    <><br id="ContactWithUs"/>
     <center>
-        <h1>Contact us</h1>
+        <h1>Contact with us</h1>
     </center>
 
     <div className='container card bg-dark bg-gradient text-light '><br />
@@ -28,7 +28,7 @@ function Contact() {
               <label>Message</label>
               <textarea className="form-control" id="exampleFormControlTextarea1"></textarea>
             </div><br />
-            <button type='submit' className="btn btn-primary col-1">Send</button>
+            <button type='submit' className="btn btn-primary col-2">Send</button>
             
         </form><br />
     </div><br />

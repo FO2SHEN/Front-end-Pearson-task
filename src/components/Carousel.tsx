@@ -16,30 +16,30 @@ function Carousel() {
           {/* carousel slid no.1 */}
           <div className="carousel-item active">
             <div className="bgimg1">
-              <img width={900} height={800} src={img1} className="d-block w-100" alt="..." />
+              <img width={900} height={895} src={img1} className="d-block w-100" alt="..." />
             </div>
-            <div className="carousel-caption">
-                  <h2>Wellcome to our website</h2>
+            <div className="carousel-caption h-50">
+                  <h1>Wellcome to our website</h1>
                   <p>Ride the Wave of Safety: Explore Our Security Solutions</p>
               </div>
           </div>
           {/* carousel slid no.2 */}
           <div className="carousel-item">
             <div className="bgimg1">
-              <img width={900} height={800} src={img2} className="d-block w-100" alt="..." />
+              <img width={900} height={895} src={img2} className="d-block w-100" alt="..." />
             </div>
-            <div className="carousel-caption d-none d-md-block">
-                <h2>Our Job is</h2>
+            <div className="carousel-caption d-none d-md-block h-50">
+                <h1>Our Job is</h1>
                 <p>Fortifying Homes and Businesses: Safeguarding Your Spaces, Shielding Your Success</p>
             </div>
           </div>
           {/* carousel slid no.3 */}
           <div className="carousel-item">
             <div className="bgimg1">
-              <img width={900} height={800} src={img3} className="d-block w-100" alt="..." />
+              <img width={900} height={895} src={img3} className="d-block w-100" alt="..." />
             </div>
-            <div className="carousel-caption d-none d-md-block">
-                <h2>We her for your Home and Company</h2>
+            <div className="carousel-caption d-none d-md-block h-50">
+                <h1>We her for your Home and Company</h1>
                 <p>Fortify Your Sanctuary: Strengthening Homes and Businesses Against Digital Threats</p>
             </div>
           </div>
@@ -56,11 +56,6 @@ function Carousel() {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
-      </div>
-
-      {/* best sells carousel */}
-      <div className="">
-
       </div>
     </div>
   );

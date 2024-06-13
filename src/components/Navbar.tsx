@@ -5,7 +5,7 @@ function Navbar() {
       <div className="container">
         {/* Nav Logo */}
         <a className="navbar-brand animate__animated animate__fadeInLeft" href="/">
-        <strong><span className="text-danger">Berim</span>bolo</strong>
+        <strong><span className="text-danger">Berim</span>bolo <span className="text-danger">Secu</span>rity</strong>
         </a>
         {/* Icon toggler  */}
         <button className="navbar-toggler  animate__animated animate__fadeInRight" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +36,11 @@ function Navbar() {
             <li className="nav-item">
               <a className="nav-link" href="#FAQs">
                 FAQs
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#ContactWithUs">
+              Contact with us
               </a>
             </li>
           </ul>
